@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    /*position: relative;*/
+    padding-bottom: 58px;
+    /*min-height: 100vh;*/
+}
+
+.certifications {
+    padding: 20px;
+
+}
+
+.about-me {
+    padding: 20px;
+}
+
+.contact-me {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 22px;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    /* min-height: calc(100vh - 211px - 58px); */
+}
+
+.pictures {
+    text-align: center;
+    width: 100%;
+    max-width: 2000px;
+    padding: 20px;
+    margin: auto;
+    background: #A9A9A9;
+}
+
+.pictures img {
+  vertical-align: middle;
+}
+
+.pictures img.center {
+  width: 30%;
+  height: 30%;
+}
+
+.pictures img.side{
+  width: 30%;
+  height: 40%;
+}
+
+.social-nav {
+    margin: 4em -3em 0;
+    padding: 1em 0;
+    background: #C0C0C0;
+    border-color: black;
+}
+
+.social-nav ul {
+    -js-display: flex;
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-nav a {
+    padding: 1em;
+}
+
+.social-nav svg {
+    width: 1.4em;
+    height: auto;
+}
+
+.social-nav path {
+    fill: black;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.design {
+  font-size: 10px;
+  color: #A9A9A9;
+}
+
+@media(max-width:768px) {
+    header { padding: 30px 20px; }
+    header h1 { font-size: 36px; margin-bottom: 22px; }
+    header p { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    body .pictures {width: 100vw; padding: 20px;}
+    body .pictures img {height: 100vh;}
+}
